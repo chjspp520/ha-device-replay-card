@@ -1,0 +1,7 @@
+{
+  "name": "Device Replay Card",
+  "render_readme": true,
+  "filename": "device-replay-card.js",
+  "content_in_root": true,
+  "hide_default_branch": true
+}

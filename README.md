@@ -1,5 +1,5 @@
-### DeviceReplayCard 项目简介
-<img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/image.png" alt="DeviceReplayCard 示例截图" style="max-width: 100%; height: auto;">
+# DeviceReplayCard 项目简介
+
 - DeviceReplayCard 是一个专为 Home Assistant 平台设计的自定义 Lovelace 卡片组件，用于可视化智能家居设备的活动历史和实时状态。该组件通过交互式时间线和楼层平面图，帮助用户回顾设备（如灯具、插座、传感器等）的运行记录，支持回放功能以模拟设备在特定日期的激活过程。
 主要功能
 
@@ -16,7 +16,16 @@
 - 适用场景
 适用于智能家居用户，特别是需要分析设备使用模式、能源消耗或日常活动的场景。例如，查看空调/灯光的运行时长、传感器读数变化，或调试自动化规则。该组件强调用户友好性，支持移动端响应，并优化了性能
 
-### 配置示例
+## 截图
+
+以下是 DeviceReplayCard 的两个运行效果示例（左：基本视图；右：带事件提示视图）：
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/image.png" alt="DeviceReplayCard 示例截图 1" style="width: 45%; height: auto;">
+  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/2.png" alt="DeviceReplayCard 示例截图 2" style="width: 45%; height: auto;">
+</div>
+
+## 配置示例
 
 以下是 `device-replay-card` 的 YAML 配置示例。你可以复制并调整到你的 Home Assistant Lovelace 中。
 
@@ -100,3 +109,4 @@
       color: "#65318e"
       on_state: "on"
   
+

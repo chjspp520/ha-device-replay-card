@@ -34,7 +34,7 @@
 - type: custom:device-replay-card
   card_width: 420
   floorplan_height: 330
-  min_duration_filter: 60 //时长过滤
+  min_duration_filter: 60 //时长过滤，单位为秒，小于60秒不统计
   background_image: /local/UI/背景/3D图/关灯背景图1.png
   background_left: -155
   background_top: -90
@@ -110,5 +110,6 @@
       color: "#65318e"
       on_state: "on"
   
+
 
 

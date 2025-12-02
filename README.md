@@ -18,11 +18,12 @@
 
 ## 截图
 
-以下是 DeviceReplayCard 的两个运行效果示例（左：基本视图；右：带事件提示视图）：
+以下是 DeviceReplayCard 的两个运行效果示例（左：基本视图；中：带事件提示视图 ； 右：gif动画演示）：
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/image.png" alt="DeviceReplayCard 示例截图 1" style="width: 45%; height: auto;">
-  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/2.png" alt="DeviceReplayCard 示例截图 2" style="width: 45%; height: auto;">
+<div style="display: flex;justify-content: space-between;align-items: center;gap: 3px;">
+  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/image.png" style="width: 20%; height: auto;" />
+  <img src="https://raw.githubusercontent.com/chjspp520/ha-device-replay-card/main/2.png"style="width: 22%; height: auto;" />
+  <img src="https://github.com/chjspp520/ha-device-replay-card/blob/main/ha-device-replay-card.gif?raw=true" style="width: 40%; height: auto;" />
 </div>
 
 ## 配置示例
@@ -109,4 +110,5 @@
       color: "#65318e"
       on_state: "on"
   
+
 
